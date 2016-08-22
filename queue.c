@@ -9,7 +9,7 @@
  * a pointer to the next link in the queue. */
 typedef struct _queue_link {
   queue_element* elem;//same as void* elem
-  struct _queue_link* next;
+  struct _queue_link* next;//next link
 } queue_link;
 
 /* This is the actual implementation of the queue struct that
